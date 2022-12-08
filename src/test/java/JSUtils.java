@@ -55,6 +55,7 @@ public class JSUtils {
 
     public  static void jsSendKeys(WebDriver driver,WebElement element, String text){
         js=(JavascriptExecutor) driver;
+        jsScroll(driver,element);
         jsHighlight(driver,element);
         String script = String.format("arguments[0].value='%s'",text);
         js.executeScript(script,element);

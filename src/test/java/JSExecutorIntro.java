@@ -59,4 +59,10 @@ public class JSExecutorIntro {
         js.executeScript("arguments[0].scrollIntoView(true);",logo);
 
     }
+
+    @Test
+    void testForm(){
+        JSUtils.jsNavigate(driver,"https://tutorialshut.com/demo-website-for-selenium-automation-practice/");
+
+    }
 }
