@@ -49,6 +49,7 @@ public class JSUtils {
 
     public static void  jsClick(WebDriver driver, WebElement button){
         js=(JavascriptExecutor) driver;
+        jsHighlight(driver,button);
         js.executeScript("arguments[0].click();",button);
     }
 
