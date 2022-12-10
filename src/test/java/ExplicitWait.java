@@ -25,11 +25,20 @@ public class ExplicitWait {
 
     }
 
-    @Test(description = "dynamic controls herokuapp")
+    @Test(description = "dynamic controls herokuapp  - visibility of message")
     void dynamicControlsTest(){
         WebElement removeButton = driver.findElement(By.xpath("//button[text()='Remove']"));
         removeButton.click();
         WebElement message= wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//form[@id='checkbox-example']/p")));
+        Assert.assertEquals(message.getText(),"It's gone!");
+    }
+
+    @Test(description = "dynamic controls herokuapp  - invisibility of loader")
+    void dynamicControlsInvisibilityTest(){
+        WebElement removeButton = driver.findElement(By.xpath("//button[text()='Remove']"));
+        removeButton.click();
+        wait.until(ExpectedConditions.invisibilityOf(driver.findElement(By.id("loading"))));
+        WebElement message= driver.findElement(By.xpath("//form[@id='checkbox-example']/p"));
         Assert.assertEquals(message.getText(),"It's gone!");
     }
 
