@@ -42,8 +42,8 @@ public class JSExecutorIntro {
         // To type Text in Selenium WebDriver without using sendKeys() method
         // alternative to sendKeys()
         //js.executeScript("arguments[0].value='hi techtorial'", emailIDSearch);
-        js.executeScript("document.getElementById('twotabsearchtextbox').value='techtorial';");
-        driver.findElement(By.xpath("//a[text()='Epic Deals']")).click();
+//        js.executeScript("document.getElementById('twotabsearchtextbox').value='techtorial';");
+//        driver.findElement(By.xpath("//a[text()='Epic Deals']")).click();
         //WebElement deals = driver.findElement(By.id("swm-link"));
         // to get the text out of web element
 		// String dealsText = (String) js.executeScript("return arguments[0].value", deals);
@@ -62,7 +62,7 @@ public class JSExecutorIntro {
 
     @Test
     void testForm(){
-        JSUtils.jsNavigate(driver,"https://tutorialshut.com/demo-website-for-selenium-automation-practice/");
-        JSUtils.jsSendKeys(driver, driver.findElement(By.id("comment")), "Hi everyone!");
+//        JSUtils.jsNavigate(driver,"https://tutorialshut.com/demo-website-for-selenium-automation-practice/");
+//        JSUtils.jsSendKeys(driver, driver.findElement(By.id("comment")), "Hi everyone!");
     }
 }
