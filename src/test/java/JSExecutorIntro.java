@@ -63,6 +63,6 @@ public class JSExecutorIntro {
     @Test
     void testForm(){
         JSUtils.jsNavigate(driver,"https://tutorialshut.com/demo-website-for-selenium-automation-practice/");
-
+        JSUtils.jsSendKeys(driver, driver.findElement(By.id("comment")), "Hi everyone!");
     }
 }
