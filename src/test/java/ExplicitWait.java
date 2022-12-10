@@ -14,12 +14,14 @@ import java.util.concurrent.TimeUnit;
 
 public class ExplicitWait {
     WebDriver driver;
+    WebDriverWait wait;
     @BeforeMethod
     void setUp(){
         System.setProperty("webdriver.chrome.driver","drivers/chromedriver");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get("https://the-internet.herokuapp.com/dynamic_controls");
+         wait = new WebDriverWait(driver,6);
 
     }
 
@@ -27,9 +29,7 @@ public class ExplicitWait {
     void dynamicControlsTest(){
         WebElement removeButton = driver.findElement(By.xpath("//button[text()='Remove']"));
         removeButton.click();
-        WebDriverWait wait = new WebDriverWait(driver,6);
         WebElement message= wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//form[@id='checkbox-example']/p")));
-
         Assert.assertEquals(message.getText(),"It's gone!");
     }
 
