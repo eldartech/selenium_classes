@@ -41,6 +41,10 @@ public class ExplicitWait {
         WebElement message= driver.findElement(By.xpath("//form[@id='checkbox-example']/p"));
         Assert.assertEquals(message.getText(),"It's gone!");
     }
-
-
+    @Test(description = "dynamic controls herokuapp  - invisibility of loader")
+    void isEnabledTest(){
+        WebElement disableButton = driver.findElement(By.xpath("//button[@onclick='swapCheckbox()']"));
+        disableButton.click();
+        wait.until(ExpectedConditions.elementToBeSelected(driver.findElement())
+    }
 }
