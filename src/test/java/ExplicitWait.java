@@ -17,7 +17,7 @@ public class ExplicitWait {
     WebDriverWait wait;
     @BeforeMethod
     void setUp(){
-        System.setProperty("webdriver.chrome.driver","drivers/chromedriver");
+        System.setProperty("webdriver.chrome.driver","drivers/chromedriver.exe");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get("https://the-internet.herokuapp.com/dynamic_controls");
