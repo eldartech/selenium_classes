@@ -7,7 +7,7 @@ public class JSUtils {
 
     public static JavascriptExecutor js;
 
-    public static void jsNavigate(WebDriver driver,String url){
+    public static void jsNavigate(WebDriver driver, String url){
         js=(JavascriptExecutor) driver;
         String script = String.format("window.location = '%s'",url);
         js.executeScript(script);

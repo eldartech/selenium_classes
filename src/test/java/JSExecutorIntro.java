@@ -6,14 +6,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-<<<<<<< HEAD
-
-
-
-
-
-
-=======
 public class JSExecutorIntro {
     WebDriver driver;
     @BeforeMethod
@@ -73,5 +65,4 @@ public class JSExecutorIntro {
         JSUtils.jsNavigate(driver,"https://tutorialshut.com/demo-website-for-selenium-automation-practice/");
         JSUtils.jsSendKeys(driver, driver.findElement(By.id("comment")), "Hi everyone!");
     }
->>>>>>> 704063278f60755688938ec63f1dfa9053408f91
 }
