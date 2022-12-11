@@ -35,7 +35,7 @@
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/TelerikChooseDateTestWait.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ExplicitWait.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ExplicitWait.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/WaitEvilTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WaitEvilTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,16 +67,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Katya/IdeaProjects/selenium_classes"
-  }
-}]]></component>
-  <component name="RunManager" selected="TestNG.TelerikChooseDateTestWait.pickADateTest">
-    <configuration name="ExplicitWait" type="TestNG" temporary="true" nameIsGenerated="true">
+
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="RunManager" selected="TestNG.FluentWaitHerokuApp.dynamicControlsTest">
+    <configuration name="ExplicitWait.dynamicControlsInvisibilityTestText" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-testng" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ExplicitWait" />
@@ -99,10 +96,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExplicitWait.dynamicControlsTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="FluentWaitHerokuApp.dynamicControlsTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-testng" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ExplicitWait" />
+      <option name="MAIN_CLASS_NAME" value="FluentWaitHerokuApp" />
       <option name="METHOD_NAME" value="dynamicControlsTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -111,11 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TelerikChooseDateTestWait" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="WaitEvilTest.eviltestButtonWaitTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-testng" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TelerikChooseDateTestWait" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="WaitEvilTest" />
+      <option name="METHOD_NAME" value="eviltestButtonWaitTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -136,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TelerikChooseDateTestWait.pickADateTest" />
-        <item itemvalue="TestNG.TelerikChooseDateTestWait" />
-        <item itemvalue="TestNG.ExplicitWait" />
+        <item itemvalue="TestNG.FluentWaitHerokuApp.dynamicControlsTest" />
         <item itemvalue="TestNG.ExplicitWait.dynamicControlsTest" />
-        <item itemvalue="TestNG.ExplicitWait.dynamicControlsInvisibilityTest" />
+        <item itemvalue="TestNG.WaitEvilTest.eviltestButtonWaitTest" />
+        <item itemvalue="TestNG.WaitsTelericDatePicker.datePickerTest" />
+        <item itemvalue="TestNG.ExplicitWait.dynamicControlsInvisibilityTestText" />
       </list>
     </recent_temporary>
   </component>
