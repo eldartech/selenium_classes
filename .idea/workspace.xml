@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="14a9f8a2-8941-4721-8add-7183f20f22a1" name="Changes" comment="">
+    <list default="true" id="0cead546-d306-4868-a254-d10d2dd2935e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,6 +42,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager" selected="TestNG.ChercherWaitPractice.chercherAlertTest">
     <configuration name="ChercherWaitPractice.chercherAlertTest" type="TestNG" temporary="true" nameIsGenerated="true">
@@ -116,7 +118,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="14a9f8a2-8941-4721-8add-7183f20f22a1" name="Changes" comment="" />
+      <changelist id="0cead546-d306-4868-a254-d10d2dd2935e" name="Changes" comment="" />
       <created>1670455645969</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
